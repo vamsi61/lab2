@@ -1,0 +1,22 @@
+#five arithmetic operations
+num1 = float(input("enter first number:"))
+num2 = float(input("enter second number:"))
+add = num1 + num2
+sub = num1 - num2
+mul = num1 * num2
+div = num1 / num2
+mod = num1 % num2
+print("the sum of {0} and {1} = {2}".format(num1,num2,add))
+print("the subraction of {0} and {1} = {2}".format(num1,num2,sub))
+print("the multipication of {0} and {1} = {2}".format(num1,num2,mul))
+print("the division of {0} and {1} = {2}".format(num1,num2,div))
+print("the modules of {0} and {1} = {2}".format(num1,num2,mod))
+
+output:
+enter first number:7
+enter second number:9
+the sum of 7.0 and 9.0 = 16.0
+the subraction of 7.0 and 9.0 = -2.0
+the multipication of 7.0 and 9.0 = 63.0
+the division of 7.0 and 9.0 = 0.7777777777777778
+the modules of 7.0 and 9.0 = 7.0
