@@ -1,0 +1,14 @@
+#swapping of two numbers
+a = int(input("enter value of a:"))
+b = int(input("enter value of b:"))
+temp = a
+a = b
+b = temp
+print("the value of a after swapping:",a)
+print("the value of b after swapping:",b)
+
+output:
+enter value of a:6
+enter value of b:10
+the value of a after swapping:10
+the value of b after swapping:6
